@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Digital Services.com</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Applications">
+  <meta name="description" content="Application services we offer, job applications, study scholarships and other online support.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 8px;
+      background: #fff;
+      color: #000;
+      font-size: clamp(16px, 2vw, 20px);
+      line-height: 1.5;
+    }
+
+    h1 { font-size: clamp(28px, 4vw, 40px); margin: 16px 0; }
+    h2 { font-size: clamp(22px, 3vw, 32px); margin: 16px 0; }
+    h3 { font-size: clamp(18px, 2.5vw, 26px); margin: 16px 0; }
+
+    header {
+      background: rgb(193, 203, 195);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      padding: 10px;
+    }
+    .main-nav a { text-decoration: none; font-weight: bold; }
+
+    .secondary-nav { text-align: left; margin: 10px 0; }
+    .secondary-nav a { text-decoration: underline; display: block; margin: 5px 0; }
+
+    .btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      display: inline-block;
+      color: #fff;
+      transition: background 0.3s;
+      background-color: rgb(0, 119, 255);
+    }
+    .btn:hover { background: #fff; color: rgb(128, 27, 27); }
+    .btn.red { background: red; }
+    .btn.blue { background: rgb(18, 18, 199); }
+    .btn.green { background: green; }
+    .btn.darkblue { background: darkblue; }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .slider { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 10px; }
+    .slides { display: flex; width: 100%; animation: slide 12s infinite ease-in-out; }
+    .slides img { flex-shrink: 0; width: 100%; height: auto; object-fit: cover; }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      100% { transform: translateX(0); }
+    }
+
+    .dark-section { background: #333; color: #fff; padding: 20px; }
+    .feature-section { background: #fff; color: #000; margin: 30px; padding: 20px; }
+    .about-section { background: #fff; padding: 20px; }
+    .location-section { background: #e8e2e2; padding: 20px; }
+
+    iframe { width: 100%; height: 300px; border: 0; }
+
+    .box {
+      width: 100%;
+      max-width: 500px;
+      background: #fff;
+      transition: transform 0.3s ease;
+      border-radius: 4px;
+    }
+    .box:hover { transform: scale(1.03); box-shadow: 0 5px 25px rgba(0,0,0,0.1); cursor: pointer; }
+
+    footer { background: #fff; padding: 20px; text-align: left; }
+    .footer-content { display: flex; flex-wrap: wrap; gap: 20px; }
+    .footer-content ul { list-style: none; padding: 0; }
+    .social-links { margin: 15px 0; }
+    .social-links a { margin-right: 10px; text-decoration: none; }
+    .footer-note { text-align: center; margin-top: 10px; font-size: 14px; }
+
+    @media (max-width: 768px) {
+      .main-nav { flex-direction: column; align-items: center; }
+      .btn { width: 90%; text-align: center; }
+      .cta-buttons { flex-direction: column; align-items: center; }
+      .footer-content { flex-direction: column; align-items: flex-start; }
+      iframe { height: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="Online-Applications">🪩 Digital Services.com</h1>
+    <p>Easy access to Online applications and other online services.</p>
+    <section>
+      <nav class="main-nav">
+        <a href="#location" class="btn">Google Map</a>
+        <a href="#options" class="btn">Options</a>
+        <a href="#services" class="btn">Services</a>
+        <a href="#about" class="btn">About</a>
+        <a href="#features" class="btn">Features</a>
+      </nav>
+    </section>
+  </header>
+
+ 
+
+  <nav class="secondary-nav">
+    <a href="irembo.html">Irembo</a>
+    <a href="hub.html">Education hub & Abroad Scholarships</a>
+    <a href="flight.html">World Flight Updates</a>
+    <a href="driving.html">Driving Permit Updates</a>
+  </nav>
+
+  <h2>Welcome to Go & Study Supportive Applicant<br>And Education Hub</h2>
+  <h3>Your Guide to Education and Career opportunities</h3>
+
+  <div class="cta-buttons">
+    <a href="https://www.hec.gov.rw/updates/scholarships" target="_blank" class="btn red">Available scholarships</a>
+    <a href="https://eac.thinkbig.rw/rwanda-secondary-school-books" target="_blank" class="btn blue">Explore Study Materials</a>
+    <a href="https://www.skyscanner.com/flights/arrivals-departures/kgl/kigali-arrivals-departures" target="_blank" class="btn green">Real-Time RwandAir Flight Updates</a>
+  </div>
+
+  <section class="slider-section">
+    <div class="slider">
+      <div class="slides">
+        <img src="https://www.bing.com/th?id=OADD2.7559529323823_1K02UUIE7RUM2QD0J5&pid=21.2" alt="Air-travel">
+        <img src="https://d17zbqeoo4bm80.cloudfront.net/scholarship/scholarship-24.png" alt="Scholarships">
+        <img src="https://transferca.org/wp-content/uploads/2022/09/How-to-Get-Scholarships-for-College-Featured-Image.jpg" alt="College">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.fVFLPGbWsZXn9ylHhl2WpAHaET?rs=1&pid=ImgDetMain" alt="Online services">
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="dark-section">
+    <h2>🈂️ Our Services</h2>
+    <p>We provide online applications, ticket booking, and digital support.</p>
+    <ol>
+      <li>Ticket Booking</li>
+      <li>Scholarship Applications in Rwanda and Beyond</li>
+      <li>Driving permit Request</li>
+      <li>Irembo Services</li>
+      <li>Tax Services</li>
+    </ol>
+  </section>
+      <p>
+    We specialize in delivering tailored outsourcing solutions from telemarketing and customer engagement to consulting and back-office support including all listed services above. Our mission is to simplify complex processes and provide businesses with reliable, scalable services that drive measurable results. So consequently we are here for you, no need to go beyond our website. Whether you need any of those services or other digital support, feel free to reach out to us.
+    <br>👇 <a href="#contact" class="btn">CONTACT US</a>
+  </p>
+
+  <main>
+    <section id="features" class="feature-section">
+      <h2>🚨 Why Choose Us?</h2>
+      <p>📌 Fast processing, professional support, and reliable service.  
+      Services.com is an outsourcing company specializing in call center operations, document management, and lead generation for businesses, online applications and other digital services.  
+      We provide cutting-edge digital tools designed to simplify online engagement. Our services include custom app-link icons, social media connectivity, <b>Air Ticket Booking, Scholarship Applications in Rwanda and Beyond, Driving permit Request, Irembo Services, Tax Services</b> and user-friendly solutions that make your brand accessible with just one click.  
+      Whether you’re a startup, healthcare provider, or established enterprise, we help you build a strong digital footprint that’s clear, professional, and effective.</p>
+    </section>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.DRuBVFm-r5WPfg4tOjoeEAHaGN?rs=1&pid=ImgDetMain" alt="scholarship" class="box">
+  </main>
+
+  <article>
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <h4>Scholarship Opportunities</h4>
+      <h4>Empowering your Journey to Success With Courage</h4>
+      <h5>Make Your Study, Travel & Digital Outreach Come Alive</h5>
+      <p>New scholarship programs are available for Rwandan students.</p>
+      <a href="form.html" class="btn darkblue">Read More ></a>
+    </section>
+  </article>
+
+  <section id="location" class="location-section">
+    <h2>📍 Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24423.527560364775!2d30.08843566210569!3d-1.9470946742520754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca774626f129f%3A0x6226e99fffd9a3ed!2sRemera%2C%20Kigali!5e1!3m2!1sen!2srw!4v1766990137207!5m2!1sen!2srw"
+      allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <ul id="contact">
+          <b>Contact Information:</b><br><br>
+          <li>📛 Name: <i>Uwiragiye Deo</i></li>
+          <li>📧 Email: <i>doctordeo6@gmail.com / uwiragiyedeo20@gmail.com</i></li>
+          <li>📞 Phone: <i>+250787845834 / +250726205255</i></li>
+          <li>📍 Location: <i>Kigali, Rwanda</i></li>
+        </ul>
+      </div>
+      <div>
+        <p id="options">Options:</p>
+        <ul>
+          <li><a href="#Online-Applications">Top</a></li>
+          <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=doctordeo6@gmail.com" target="_blank">Tell Us About Yourself</a></li>
+          <li><a href="form.html">Fill form for email Updates</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="social-links">
+      <a href="https://wa.me/+250787845834" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://www.facebook.com/profile.php?id=61553002697991" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+      <a href="http://www.youtube.com/@GOandSTUDYSCHOLARSHIP" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
+      <a href="https://instagram.com/drdeo11" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="https://www.tiktok.com/@scholarship284" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+      <a href="https://x.com/D94516Deo" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+    </div>
+
+    <p class="footer-note">🗺️ Kigali-Remera near Amahoro stadium | N. Clement Ader ©2025 Doe's Site. All rights reserved.</p>
+  </footer>
+</body>
+</html>
